@@ -62,7 +62,7 @@ End Classical_Predicates.
 
 (* Parno's 2008 HotSec paper *)
 
-Section Parno.
+Section Cuckoo.
 
 (* we have sets Person, Computers, TPMs *)
 Variables P C T : Set.
@@ -183,7 +183,7 @@ Qed.
 
 (* C_trusted and C_not_trusted ! *)
 
-End Parno.
+End Cuckoo.
 
 
 
